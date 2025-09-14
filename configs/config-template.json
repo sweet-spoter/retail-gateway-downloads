@@ -1,0 +1,83 @@
+{
+  "gateway": {
+    "id": "{{GATEWAY_ID}}",
+    "version": "{{VERSION}}",
+    "location": "{{LOCATION}}",
+    "client": "{{CLIENT_NAME}}",
+    "streaming_pipeline_enabled": "{{STREAMING_PIPELINE_ENABLED}}",
+    "lan_ip": "{{LAN_IP}}"
+  },
+  "client_config": {
+    "client_id": "{{CLIENT_ID}}",
+    "client_name": "{{CLIENT_NAME}}",
+    "location": "{{LOCATION}}",
+    "contact_info": {
+      "primary_contact": "{{PRIMARY_CONTACT}}",
+      "email": "{{EMAIL}}",
+      "phone": "{{PHONE}}",
+      "technical_contact": "{{TECHNICAL_CONTACT}}",
+      "technical_email": "{{TECHNICAL_EMAIL}}"
+    },
+    "installation_config": {
+      "service_name": "{{SERVICE_NAME}}",
+      "startup_type": "automatic",
+      "install_path": "{{INSTALL_PATH}}",
+      "log_path": "{{LOG_PATH}}",
+      "data_path": "{{DATA_PATH}}",
+      "backup_path": "{{BACKUP_PATH}}"
+    },
+    "network_config": {
+      "lan_ip_range": "{{LAN_IP_RANGE}}",
+      "required_ports": [8080, 5999, 4376, 9000],
+      "firewall_rules": ["allow_8080", "allow_5999", "allow_4376", "allow_9000"],
+      "proxy_config": {
+        "enabled": false,
+        "proxy_url": "",
+        "proxy_credentials": ""
+      }
+    },
+    "system_requirements": {
+      "min_ram": "4GB",
+      "min_disk_space": "10GB",
+      "os_requirements": ["Windows 10", "Windows Server 2016"],
+      "dotnet_version": "6.0",
+      "python_version": "3.8"
+    },
+    "installation_status": {
+      "configured_by_employee": true,
+      "configured_at": "{{CONFIGURED_AT}}",
+      "configured_by": "{{CONFIGURED_BY}}",
+      "installation_ready": true,
+      "installation_completed": false,
+      "installation_date": null
+    }
+  },
+  "licensing": {
+    "license_key": "{{LICENSE_KEY}}",
+    "license_type": "{{LICENSE_TYPE}}",
+    "max_lanes": "{{MAX_LANES}}",
+    "features": {
+      "sdk_integration": "{{SDK_INTEGRATION}}",
+      "session_management": "{{SESSION_MANAGEMENT}}",
+      "analytics_api": "{{ANALYTICS_API}}",
+      "advanced_monitoring": "{{ADVANCED_MONITORING}}",
+      "streaming_pipeline": "{{STREAMING_PIPELINE}}",
+      "offline_capable": true
+    },
+    "grace_period_days": "{{GRACE_PERIOD_DAYS}}",
+    "auto_renewal": "{{AUTO_RENEWAL}}",
+    "billing_cycle": "{{BILLING_CYCLE}}",
+    "security": {
+      "hardware_fingerprint": "{{HARDWARE_FINGERPRINT}}",
+      "digital_signature": "{{DIGITAL_SIGNATURE}}",
+      "encryption_key": "{{ENCRYPTION_KEY}}",
+      "offline_validation": true,
+      "license_file_path": "license.json"
+    }
+  },
+  "monitoring": {
+    "health_check_interval": 30,
+    "metrics_collection": true,
+    "log_level": "INFO"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "license_key": "{{LICENSE_KEY}}",
+  "license_type": "{{LICENSE_TYPE}}",
+  "max_lanes": "{{MAX_LANES}}",
+  "features": {
+    "sdk_integration": "{{SDK_INTEGRATION}}",
+    "session_management": "{{SESSION_MANAGEMENT}}",
+    "analytics_api": "{{ANALYTICS_API}}",
+    "advanced_monitoring": "{{ADVANCED_MONITORING}}",
+    "streaming_pipeline": "{{STREAMING_PIPELINE}}",
+    "offline_capable": true
+  },
+  "grace_period_days": "{{GRACE_PERIOD_DAYS}}",
+  "auto_renewal": "{{AUTO_RENEWAL}}",
+  "billing_cycle": "{{BILLING_CYCLE}}",
+  "security": {
+    "hardware_fingerprint": "{{HARDWARE_FINGERPRINT}}",
+    "digital_signature": "{{DIGITAL_SIGNATURE}}",
+    "encryption_key": "{{ENCRYPTION_KEY}}",
+    "offline_validation": true,
+    "license_file_path": "license.json"
+  },
+  "client_info": {
+    "client_id": "{{CLIENT_ID}}",
+    "client_name": "{{CLIENT_NAME}}",
+    "location": "{{LOCATION}}",
+    "contact_info": {
+      "primary_contact": "{{PRIMARY_CONTACT}}",
+      "email": "{{EMAIL}}",
+      "phone": "{{PHONE}}",
+      "technical_contact": "{{TECHNICAL_CONTACT}}",
+      "technical_email": "{{TECHNICAL_EMAIL}}"
+    }
+  },
+  "installation_info": {
+    "install_date": "{{INSTALL_DATE}}",
+    "install_path": "{{INSTALL_PATH}}",
+    "service_name": "{{SERVICE_NAME}}",
+    "version": "{{VERSION}}"
+  }
+}

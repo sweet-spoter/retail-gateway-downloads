@@ -1,0 +1,41 @@
+{
+  "license_key": "f4f7414f8bd27304b5c9c34546692fbb975d809e0de55d995946a4b9fc7f4f22",
+  "license_type": "professional",
+  "max_lanes": 10,
+  "features": {
+    "sdk_integration": true,
+    "session_management": true,
+    "analytics_api": true,
+    "advanced_monitoring": true,
+    "streaming_pipeline": true,
+    "offline_capable": true
+  },
+  "grace_period_days": 7,
+  "auto_renewal": true,
+  "billing_cycle": "monthly",
+  "security": {
+    "hardware_fingerprint": "17cd2e2ef0318f70f19c9d7d8e21eb054cc82c139dad890f5d565cd072a11b49",
+    "digital_signature": "d8420bee9d3e3ff3b0ef8eceae64bc462b4a207510b124f3ff3fc9cdd2ae258e",
+    "encryption_key": "21025871d9498205fbdb42b5419b47289ada7118241f09de20cb9507ce6c8e57",
+    "offline_validation": true,
+    "license_file_path": "license.json"
+  },
+  "client_info": {
+    "client_id": "client_001",
+    "client_name": "Casino Royale",
+    "location": "Las Vegas, NV",
+    "contact_info": {
+      "primary_contact": "John Doe",
+      "email": "john@casinoroyale.com",
+      "phone": "+1-555-0123",
+      "technical_contact": "Jane Smith",
+      "technical_email": "jane@casinoroyale.com"
+    }
+  },
+  "installation_info": {
+    "install_date": "2025-09-06T12:52:13.007496",
+    "install_path": "C:\\Program Files\\GulfCoast\\Gateway",
+    "service_name": "GulfCoastGateway",
+    "version": "1.0.0"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "platform": "linux",
-  "version": "1.0.0",
-  "build_date": "2024-12-19T00:00:00Z",
+  "version": "1.0.1",
+  "build_date": "2024-12-19T11:47:00Z",
   "installers": [
     {
-      "name": "gateway-service-1.0.0-Linux-DEB.tar.gz",
+      "name": "gateway-service-1.0.1-Linux-DEB.tar.gz",
       "type": "debian",
       "size": 0,
       "checksum": "",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "name": "gateway-service-1.0.0-Linux-RPM.tar.gz",
+      "name": "gateway-service-1.0.1-Linux-RPM.tar.gz",
       "type": "redhat",
       "size": 0,
       "checksum": "",
@@ -47,8 +47,8 @@
     }
   ],
   "download_urls": {
-    "debian": "https://raw.githubusercontent.com/sweet-spoter/retail-gateway-downloads/main/packages/linux/gateway-service-1.0.0-Linux-DEB.tar.gz",
-    "redhat": "https://raw.githubusercontent.com/sweet-spoter/retail-gateway-downloads/main/packages/linux/gateway-service-1.0.0-Linux-RPM.tar.gz"
+    "debian": "https://raw.githubusercontent.com/sweet-spoter/retail-gateway-downloads/main/packages/linux/gateway-service-1.0.1-Linux-DEB.tar.gz",
+    "redhat": "https://raw.githubusercontent.com/sweet-spoter/retail-gateway-downloads/main/packages/linux/gateway-service-1.0.1-Linux-RPM.tar.gz"
   },
   "documentation": {
     "installation_guide": "https://github.com/sweet-spoter/retail-gateway-platform/blob/main/docs/deployment/guides/INSTALLER_USER_FLOW.md",

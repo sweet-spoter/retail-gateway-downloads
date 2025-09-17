@@ -1,10 +1,10 @@
 {
   "version": "1.0.2",
-  "build_date": "2025-09-17T16:40:20Z",
-  "git_commit": "0fa55bf464d5f7bf6308c121cd722ef9e697d378",
+  "build_date": "2025-09-17T18:12:29Z",
+  "git_commit": "1289da5117d78cb6b1e92a222903c582e9edc229",
   "platform": "windows",
   "obfuscated": true,
-  "size": 35254904,
-  "installer_size": 35007538,
-  "checksum": "a6dd1bf7cfb5202c21b0570d0fe9398397c2634e2c11b9719b086ccf74235383"
+  "size": 35254984,
+  "installer_size": 35008760,
+  "checksum": "ecc2c248684d0632c9573b527ffdefb28104e56a33e6552b0b9beb3296c1976f"
 }

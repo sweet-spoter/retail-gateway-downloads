@@ -33,5 +33,5 @@ This repository contains the latest installer packages for the Retail Gateway Pl
 
 This repository is automatically updated when new installers are built in the main project.
 
-**Last Updated**: 2025-09-17 18:12:29 UTC
+**Last Updated**: 2025-09-17 18:16:35 UTC
 **Source Repository**: [retail-gateway-platform](https://github.com/sweet-spoter/retail-gateway-platform)

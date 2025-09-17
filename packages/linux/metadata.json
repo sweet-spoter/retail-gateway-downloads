@@ -1,54 +1,54 @@
 {
   "platform": "linux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "build_date": "2024-12-19T11:47:00Z",
   "installers": [
     {
-      "name": "gateway-service-1.0.1-Linux-DEB.tar.gz",
+      "name": "gateway-lane-service-1.0.2-Linux-DEB.tar.gz",
       "type": "debian",
       "size": 0,
       "checksum": "",
-      "description": "Debian/Ubuntu package for Linux systems",
+      "description": "Debian/Ubuntu package for Gateway Lane Service on Linux systems",
       "requirements": {
         "os": ["Ubuntu 18.04+", "Debian 10+", "CentOS 7+", "RHEL 7+"],
-        "architecture": ["x64", "arm64"],
+        "architecture": ["x64"],
         "ram": "4GB",
         "disk_space": "10GB",
-        "python_version": "3.8"
+        "python_version": "Not required (bundled in executable)"
       },
       "installation_notes": [
         "Extract the tar.gz file",
-        "Run sudo dpkg -i gateway-service.deb (if available)",
+        "Run sudo dpkg -i gateway-lane-service.deb (if available)",
         "Or extract and run install.sh script",
         "Configure systemd service",
-        "Start service: sudo systemctl start gateway-service"
+        "Start service: sudo systemctl start gateway-lane-service"
       ]
     },
     {
-      "name": "gateway-service-1.0.1-Linux-RPM.tar.gz",
+      "name": "gateway-lane-service-1.0.2-Linux-RPM.tar.gz",
       "type": "redhat",
       "size": 0,
       "checksum": "",
-      "description": "RPM package for Red Hat/CentOS systems",
+      "description": "RPM package for Gateway Lane Service on Red Hat/CentOS systems",
       "requirements": {
         "os": ["CentOS 7+", "RHEL 7+", "Fedora 30+"],
-        "architecture": ["x64", "arm64"],
+        "architecture": ["x64"],
         "ram": "4GB",
         "disk_space": "10GB",
-        "python_version": "3.8"
+        "python_version": "Not required (bundled in executable)"
       },
       "installation_notes": [
         "Extract the tar.gz file",
-        "Run sudo rpm -i gateway-service.rpm (if available)",
+        "Run sudo rpm -i gateway-lane-service.rpm (if available)",
         "Or extract and run install.sh script",
         "Configure systemd service",
-        "Start service: sudo systemctl start gateway-service"
+        "Start service: sudo systemctl start gateway-lane-service"
       ]
     }
   ],
   "download_urls": {
-    "debian": "https://raw.githubusercontent.com/sweet-spoter/retail-gateway-downloads/main/packages/linux/gateway-service-1.0.1-Linux-DEB.tar.gz",
-    "redhat": "https://raw.githubusercontent.com/sweet-spoter/retail-gateway-downloads/main/packages/linux/gateway-service-1.0.1-Linux-RPM.tar.gz"
+    "debian": "https://raw.githubusercontent.com/sweet-spoter/retail-gateway-downloads/main/packages/linux/gateway-lane-service-1.0.2-Linux-DEB.tar.gz",
+    "redhat": "https://raw.githubusercontent.com/sweet-spoter/retail-gateway-downloads/main/packages/linux/gateway-lane-service-1.0.2-Linux-RPM.tar.gz"
   },
   "documentation": {
     "installation_guide": "https://github.com/sweet-spoter/retail-gateway-platform/blob/main/docs/deployment/guides/INSTALLER_USER_FLOW.md",

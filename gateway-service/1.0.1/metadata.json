@@ -1,0 +1,10 @@
+{
+  "version": "1.0.1",
+  "build_date": "2025-09-17T04:12:35Z",
+  "git_commit": "df767e552ebf47d44da9ff23d114895bfe2f3743",
+  "platform": "windows",
+  "obfuscated": true,
+  "size": 35254184,
+  "installer_size": 35005646,
+  "checksum": "a3e7782d10b26c73f3b35a5be310424036474239b34a7099eb621386b20a189a"
+}

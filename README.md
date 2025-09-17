@@ -4,22 +4,22 @@ This repository contains the latest installer packages for the Retail Gateway Pl
 
 ## 📦 Available Installers
 
-### Latest Version (1.0.1)
-- **Windows**: [GatewayService-1.0.1-Windows-Portable.zip](packages/windows/GatewayService-1.0.1-Windows-Portable.zip)
-- **Linux DEB**: [gateway-service-1.0.1-Linux-DEB.tar.gz](packages/linux/gateway-service-1.0.1-Linux-DEB.tar.gz)
-- **Linux RPM**: [gateway-service-1.0.1-Linux-RPM.tar.gz](packages/linux/gateway-service-1.0.1-Linux-RPM.tar.gz)
+### Latest Version (1.0.2)
+- **Windows**: [GatewayLaneService-1.0.2-Windows-Portable.zip](packages/windows/GatewayLaneService-1.0.2-Windows-Portable.zip)
+- **Linux DEB**: [gateway-lane-service-1.0.2-Linux-DEB.tar.gz](packages/linux/gateway-lane-service-1.0.2-Linux-DEB.tar.gz)
+- **Linux RPM**: [gateway-lane-service-1.0.2-Linux-RPM.tar.gz](packages/linux/gateway-lane-service-1.0.2-Linux-RPM.tar.gz)
 
 ### Direct Downloads
-- **Executable**: [GatewayService.exe](gateway-service/latest/GatewayService.exe)
+- **Executable**: [GatewayLaneService.exe](gateway-service/latest/GatewayLaneService.exe)
 - **Metadata**: [metadata.json](gateway-service/latest/metadata.json)
 
 ### Version History
-- [Version 1.0.1](gateway-service/1.0.1/)
+- [Version 1.0.2](gateway-service/1.0.2/)
 
 ## 📋 Installation Instructions
 
 ### Windows
-1. Download [GatewayService-1.0.1-Windows-Portable.zip](packages/windows/GatewayService-1.0.1-Windows-Portable.zip)
+1. Download [GatewayLaneService-1.0.2-Windows-Portable.zip](packages/windows/GatewayLaneService-1.0.2-Windows-Portable.zip)
 2. Extract the ZIP file
 3. Run `install.bat` as Administrator
 4. Run `start_gateway.bat` to start the service
@@ -33,5 +33,5 @@ This repository contains the latest installer packages for the Retail Gateway Pl
 
 This repository is automatically updated when new installers are built in the main project.
 
-**Last Updated**: 2025-09-17 05:04:59 UTC
+**Last Updated**: 2025-09-17 16:00:23 UTC
 **Source Repository**: [retail-gateway-platform](https://github.com/sweet-spoter/retail-gateway-platform)

@@ -3,9 +3,8 @@
   "build_date": "2025-09-29T03:05:58Z",
   "git_commit": "5f31a319e75af48fdf732ed582d4c6277c8ed07d",
   "platform": "windows",
-  "service_type": "gateway",
+  "service_type": "proxy",
   "installer_type": "msi",
-  "obfuscated": true,
   "installer_size": 0,
   "checksum": ""
 }

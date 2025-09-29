@@ -1,37 +1,38 @@
-# Retail Gateway Platform - Installer Downloads
+# Retail Gateway Platform - MSI Installer Downloads
 
-This repository contains the latest installer packages for the Retail Gateway Platform.
+This repository contains the latest MSI installer packages for the Retail Gateway Platform.
 
-## 📦 Available Installers
+## 📦 Available MSI Installers
 
-### Latest Version (1.0.3)
-- **Windows**: [GatewayLaneService-1.0.3-Windows-Portable.zip](packages/windows/GatewayLaneService-1.0.3-Windows-Portable.zip)
-- **Linux DEB**: [gateway-lane-service-1.0.3-Linux-DEB.tar.gz](packages/linux/gateway-lane-service-1.0.3-Linux-DEB.tar.gz)
-- **Linux RPM**: [gateway-lane-service-1.0.3-Linux-RPM.tar.gz](packages/linux/gateway-lane-service-1.0.3-Linux-RPM.tar.gz)
+### Latest Version (1.1.0)
+- **Proxy Service**: [GatewayProxyService-v1.1.0.msi](proxy-service/latest/GatewayProxyService-v1.1.0.msi)
+- **Gateway Service**: [GatewayLaneService-v1.1.0.msi](gateway-service/latest/GatewayLaneService-v1.1.0.msi)
 
-### Direct Downloads
-- **Executable**: [GatewayLaneService.exe](gateway-service/latest/GatewayLaneService.exe)
-- **Metadata**: [metadata.json](gateway-service/latest/metadata.json)
+### Metadata
+- **Proxy Metadata**: [metadata.json](proxy-service/latest/metadata.json)
+- **Gateway Metadata**: [metadata.json](gateway-service/latest/metadata.json)
 
 ### Version History
-- [Version 1.0.3](gateway-service/1.0.3/)
+- [Proxy Service v1.1.0](proxy-service/1.1.0/)
+- [Gateway Service v1.1.0](gateway-service/1.1.0/)
 
 ## 📋 Installation Instructions
 
-### Windows
-1. Download [GatewayLaneService-1.0.3-Windows-Portable.zip](packages/windows/GatewayLaneService-1.0.3-Windows-Portable.zip)
-2. Extract the ZIP file
-3. Run `install.bat` as Administrator
-4. Run `start_gateway.bat` to start the service
+### Windows (MSI Installers)
+1. Download [GatewayProxyService-v1.1.0.msi](proxy-service/latest/GatewayProxyService-v1.1.0.msi)
+2. Download [GatewayLaneService-v1.1.0.msi](gateway-service/latest/GatewayLaneService-v1.1.0.msi)
+3. Run each MSI file as Administrator
+4. Both services will be installed as Windows Services and start automatically
 
-### Linux
-1. Download the appropriate package for your distribution
-2. Extract and follow the installation instructions
-3. Configure using the provided templates
+### Silent Installation
+```cmd
+msiexec /i GatewayProxyService-v1.1.0.msi /quiet
+msiexec /i GatewayLaneService-v1.1.0.msi /quiet
+```
 
 ## 🔗 Integration
 
-This repository is automatically updated when new installers are built in the main project.
+This repository is automatically updated when new MSI installers are built in the main project.
 
-**Last Updated**: 2025-09-17 19:58:04 UTC
+**Last Updated**: 2025-09-29 03:05:58 UTC
 **Source Repository**: [retail-gateway-platform](https://github.com/sweet-spoter/retail-gateway-platform)

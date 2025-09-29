@@ -1,10 +1,10 @@
 {
   "version": "1.1.0",
-  "build_date": "2025-09-29T04:16:01Z",
-  "git_commit": "ef44281f625e53525dc3e3b1979f4a4bfa34a5b5",
+  "build_date": "2025-09-29T04:23:26Z",
+  "git_commit": "98bf1db5ddaee0c414f8a879fe350ce7f4af0e9f",
   "platform": "windows",
   "service_type": "proxy",
   "installer_type": "msi",
   "installer_size": 19406848,
-  "checksum": "a37e6e3f70045e5383e9dbcdbed0798ab0757337629f3078cdb28f12cef12c5e"
+  "checksum": "73f66ca83de947a11e8df62671c66f91d03e383fd4d5a037c68dce776e7d1d90"
 }

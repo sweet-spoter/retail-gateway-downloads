@@ -1,7 +1,7 @@
 {
   "version": "1.1.0",
-  "build_date": "2025-09-29T03:35:29Z",
-  "git_commit": "d5fc0043d776b22ff45b51fad05eb1136ae28ea3",
+  "build_date": "2025-09-29T03:51:05Z",
+  "git_commit": "e96aec1b2813cd193d8f7edf866043bb4bb053f7",
   "platform": "windows",
   "service_type": "proxy",
   "installer_type": "msi",

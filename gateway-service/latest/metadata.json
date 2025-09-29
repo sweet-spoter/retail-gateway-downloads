@@ -1,7 +1,7 @@
 {
   "version": "1.1.0",
-  "build_date": "2025-09-29T03:51:05Z",
-  "git_commit": "e96aec1b2813cd193d8f7edf866043bb4bb053f7",
+  "build_date": "2025-09-29T04:16:02Z",
+  "git_commit": "ef44281f625e53525dc3e3b1979f4a4bfa34a5b5",
   "platform": "windows",
   "service_type": "gateway",
   "installer_type": "msi",

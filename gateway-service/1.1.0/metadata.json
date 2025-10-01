@@ -1,11 +1,11 @@
 {
   "version": "1.1.0",
-  "build_date": "2025-10-01T04:26:18Z",
-  "git_commit": "449dd5ed0778df3b6f629e09062df16dbecba52a",
+  "build_date": "2025-10-01T04:38:46Z",
+  "git_commit": "877f1599883d297ca54e1fc83de58811005e4030",
   "platform": "windows",
   "service_type": "gateway",
   "installer_type": "msi",
   "obfuscated": true,
-  "installer_size": 12898304,
-  "checksum": "9cee603133fa72a949324f160321fafceee69450a517604b8673281494afdea5"
+  "installer_size": 12902400,
+  "checksum": "360433109fb034c25ad8441c96430c4a1fb55401116b5d34cebb51aa6ad500bd"
 }

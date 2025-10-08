@@ -36,3 +36,16 @@ This repository is automatically updated when new MSI installers are built in th
 
 **Last Updated**: 2025-10-01 17:49:08 UTC
 **Source Repository**: [retail-gateway-platform](https://github.com/sweet-spoter/retail-gateway-platform)
+
+## Latest Releases
+
+### Gateway Proxy Service v1.1.1
+- **Download**: [GatewayProxyService-v1.1.1.msi](proxy-service/1.1.1/GatewayProxyService-v1.1.1.msi)
+- **Build Date**: 2025-10-08T16:00:38Z
+- **Description**: Gateway Proxy Service Windows MSI Installer
+
+### Gateway Service v1.1.1
+- **Download**: [GatewayLaneService-v1.1.1.msi](gateway-service/1.1.1/GatewayLaneService-v1.1.1.msi)
+- **Build Date**: 2025-10-08T16:00:38Z
+- **Description**: Gateway Service Windows MSI Installer
+

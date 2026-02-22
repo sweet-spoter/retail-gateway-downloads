@@ -1,0 +1,8 @@
+{
+  "service": "gateway-proxy-service",
+  "version": "2.2.0",
+  "description": "Gateway Proxy Service v2.2.0 - Windows MSI Installer",
+  "installer_type": "msi",
+  "build_date": "2026-02-22T22:05:19Z",
+  "file_name": "GatewayProxyService-v2.2.0.msi"
+}

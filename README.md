@@ -1011,3 +1011,16 @@ This repository is automatically updated when new MSI installers are built in th
 - **Build Date**: 2026-08-05T15:11:58Z
 - **Description**: Gateway Service Windows MSI Installer
 
+
+## Latest Releases
+
+### Gateway Proxy Service v2.4.0
+- **Download**: [GatewayProxyService-v2.4.0.msi](proxy-service/2.4.0/GatewayProxyService-v2.4.0.msi)
+- **Build Date**: 2026-08-05T17:00:13Z
+- **Description**: Gateway Proxy Service Windows MSI Installer
+
+### Gateway Service v1.5.0
+- **Download**: [GatewayLaneService-v1.5.0.msi](gateway-service/1.5.0/GatewayLaneService-v1.5.0.msi)
+- **Build Date**: 2026-08-05T17:00:13Z
+- **Description**: Gateway Service Windows MSI Installer
+

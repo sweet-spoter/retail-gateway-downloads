@@ -1,0 +1,35 @@
+# Cloudflare Tunnel Configuration
+# Store  : elsupermarket_store_01
+# Domain : elsupermarkets-store001.store-proxycfargotunnel.win
+#
+# Routing:
+#   wss://elsupermarkets-store001.store-proxycfargotunnel.win/ws/retail-gateway/...  --> localhost:8081 (WebSocket live feed)
+#   https://elsupermarkets-store001.store-proxycfargotunnel.win/*                    --> localhost:3005 (REST API)
+#
+# This file is written automatically by setup-tunnel.bat.
+# Do not edit manually — re-run setup-tunnel.bat if you need to reconfigure.
+
+tunnel: TUNNEL_UUID_PLACEHOLDER
+credentials-file: C:\ProgramData\cloudflared\TUNNEL_UUID_PLACEHOLDER.json
+
+ingress:
+  # WebSocket live data stream — must be first (path match takes priority)
+  - hostname: elsupermarkets-store001.store-proxycfargotunnel.win
+    path: /ws/retail-gateway
+    service: http://localhost:8081
+    originRequest:
+      connectTimeout: 10s
+      keepAliveConnections: 10
+      keepAliveTimeout: 90s
+
+  # Proxy REST API — all other requests
+  - hostname: elsupermarkets-store001.store-proxycfargotunnel.win
+    service: http://localhost:3005
+    originRequest:
+      connectTimeout: 10s
+      keepAliveConnections: 10
+      keepAliveTimeout: 90s
+      httpHostHeader: localhost
+
+  # Catch-all — required by cloudflared, must be last
+  - service: http_status:404

@@ -1,0 +1,8 @@
+{
+  "service": "gateway-service",
+  "file_name": "GatewayLaneService-v1.8.0.msi",
+  "version": "1.8.0",
+  "description": "Gateway Service v1.8.0 - Windows MSI Installer",
+  "build_date": "2026-08-19T13:11:04Z",
+  "installer_type": "msi"
+}

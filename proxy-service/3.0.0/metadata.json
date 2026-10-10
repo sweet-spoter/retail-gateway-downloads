@@ -1,0 +1,8 @@
+{
+  "file_name": "GatewayProxyService-v3.0.0.msi",
+  "version": "3.0.0",
+  "installer_type": "msi",
+  "build_date": "2026-10-10T17:07:52Z",
+  "service": "gateway-proxy-service",
+  "description": "Gateway Proxy Service v3.0.0 - Windows MSI Installer"
+}
